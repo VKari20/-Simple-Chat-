@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #fff;
+  color: #000;
+  transition: background 0.3s, color 0.3s;
+}
+
+.dark body {
+  background: #121212;
+  color: #e0e0e0;
+}
+
+input, button {
+  transition: background 0.2s, color 0.2s;
+}
+
+.dark input {
+  background: #333;
+  color: #fff;
+}
+
+.dark button {
+  background: #444;
+  color: #fff;
+}
